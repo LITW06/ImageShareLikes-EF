@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareLikes.Web", "ImageShareLikes.Web\ImageShareLikes.Web.csproj", "{5D00A107-93A0-4841-94AA-BC410F70CD5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageShareLikes.Data", "ImageShareLikes.Data\ImageShareLikes.Data.csproj", "{2CD5B3D9-19E4-497C-A3A8-2EE9FCC6FEAB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D00A107-93A0-4841-94AA-BC410F70CD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D00A107-93A0-4841-94AA-BC410F70CD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D00A107-93A0-4841-94AA-BC410F70CD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D00A107-93A0-4841-94AA-BC410F70CD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD5B3D9-19E4-497C-A3A8-2EE9FCC6FEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD5B3D9-19E4-497C-A3A8-2EE9FCC6FEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD5B3D9-19E4-497C-A3A8-2EE9FCC6FEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD5B3D9-19E4-497C-A3A8-2EE9FCC6FEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
